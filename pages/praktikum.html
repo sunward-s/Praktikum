@@ -17,7 +17,7 @@
         }
 
         a:visited {
-            color: red
+            color: palevioletred
         }
         a:hover {
             background-color: aquamarine;
@@ -32,6 +32,9 @@
 <body>
 
     <h2>Praktikum 2022</h2>
+    <p>Tag 1, <a href="#13_6_2022">13.6.2022</a></p>
+    <p>Tag 2, <a href="#14_6_2022">14.6.2022</a></p>
+    <p>Tag 3, <a href="#15_6_2022">15.6.2022</a></p>
 
     <table>
         <tr>
@@ -40,19 +43,49 @@
             <th>Links</th>
         </tr>
         <tr>
-            <td>13.06.2022</td>
+            <td id="13_6_2022">13.6.2022</td>
             <td>
                 <ul>
                     <li>VSCode IDE installiert</li>
                     <li>GIT Versionierungs-Applikation installiert</li>
                     <li>Github Konto eingerichtet</li>
                     <li>1. Repository/Projekt angelegt (hello-world)</li>
-                    <li>[ ] Seite praktikum.html mit Rand/Border</li>
-                    <li>[ ] Links als anchor klickbar</li>
-                    <li>[ ] Links in anderer Farbe</li>
-                    <li>[ ] Links in anderer Farbe, wenn geklickt wurde</li>
-                    <li>[ ] WebSkills HTML & CSS</li>
-                    <li>[ ] Link Hintergrundfarbe ändern</li>
+                    <fieldset>
+                        <legend>Checklist</legend>
+
+                        <div>
+                            <input type="checkbox" id="Anchor_Link" name="Anchor_Link"
+                            checked>
+                            <label for="Anchor_Link">Klickbarer Link (Anchor)</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Link_Farbe" name="Link_Farbe"
+                            checked>
+                            <label for="Link_Farbe">Link Farbveränderung</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Link_Hintergrund" name="Link_Hintergrund"
+                            checked>
+                            <label for="Link_Hintergrund">Link Hintergrund Farbveränderung</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Webskill_Read" name="Webskill_Read"
+                            checked>
+                            <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Webskill_Read" name="Webskill_Read"
+                            checked>
+                            <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
+                        </div>
+
+
+
+                    </fieldset>
                 </ul>
             </td>
             <td>
@@ -67,18 +100,41 @@
             </td>
         </tr>
         <tr>
-            <td>14.06.2022</td>
+            <td id="14_06_2022">14.6.2022</td>
             <td>
                 <ol>
-                    <li>[ ] Seite praktikum.html mit Rand/Border</li>
-                    <li>[ ] Links als anchor klickbar</li>
-                    <li>[ ] WebSkills CSS & JavaScript</li>
+                    <fieldset>
+                        <legend>Checklist</legend>
+                    <div>
+                        <input type="checkbox" id="Navigation" name="Navigation"
+                        checked>
+                        <label for="Navigation">Navigation erstellen</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Border" name="Border"
+                        checked>
+                        <label for="Border">Border erstellen</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Checklist" name="Checklist"
+                        checked>
+                        <label for="Checkslist">Checklist erstellen</label>
+                    </div>
+                </fieldset>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <ul>
+                 <li><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">https://www.w3schools.com/tags/tag_a.asp</a></li>
+                 <li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/checkbox" target="_blank">https://developer.mozilla.org/HTML/Element/Input/checkbox</a></li>
+
+
+                </ul>
         </tr>
         <tr>
-            <td>15.06.2022</td>
+            <td id="15_06_2022">15.6.2022</td>
             <td></td>
             <td></td>
         </tr>
