@@ -2,10 +2,22 @@
 <html> 
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
     <h2>Praktikum 2022 bei SoftConEx </h2>
     </h2>
-    <a href="http://softconex.de/" target="_blank"><img src="SoftConEx.png" width="300px" alt="SoftConEx Logo" /></a>
+    </div><a href="http://softconex.de/" target="_blank"><img src="SoftConEx.png" width="300px" alt="SoftConEx Logo" class="disabeld"/></a>
     <style>
+        .disabled {
+            pointer-events: none;
+            opacity: unset;
+            display: block;
+            cursor: default;
+            color: transparent;
+            text-decoration: none;
+
+        }
+
         input {
             color: brown;
         }
@@ -26,19 +38,17 @@
             background-color: rgb(163, 192, 206);
         }
         a:focus {
-            color: cadetblue;;
+            color: cadetblue;
+        }
+
+        body {
+            font-family: sans-serif;
         }
     </style>
 
 </head>
 
 <body>
-
-    <style>
-        * {
-          font-family: sans-serif;
-        }
-    </style>
 
     <h3>Navigation</h3>
     <p>Tag 1, <a href="#13_6_2022">13.6.2022</a></p>
@@ -55,29 +65,31 @@
         <tr>
             <td id="13_6_2022">13.6.2022</td>
             <td>
-                <div>
-                    <input type="checkbox" id="VSCode" name="VSCode"
-                    checked>
-                    <label for="VSCode">VSCode installiert</label>
-                </div>
-
-                <div>
-                    <input type="checkbox" id="GIT" name="GIT"
-                    checked>
-                    <label for="GIT">Git Versionierungs-Applikation installiert</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="Github" name="Github"
-                    checked>
-                    <label for="Github">Github Konto eingerichtet</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="Projekt" name="Projekt"
-                    checked>
-                    <label for="Projekt">1. Repository/Projekt angelegt (Praktikum)</label>
-                </div>
                     <fieldset>
                         <legend></legend>
+                        <div>
+                            <input type="checkbox" id="VSCode" name="VSCode"
+                            checked>
+                            <label for="VSCode">VSCode installiert</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="GIT" name="GIT"
+                            checked>
+                            <label for="GIT">Git Versionierungs-Applikation installiert</label>
+                        </div>
+                
+                        <div>
+                            <input type="checkbox" id="Github" name="Github"
+                            checked>
+                            <label for="Github">Github Konto eingerichtet</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Projekt" name="Projekt"
+                            checked>
+                            <label for="Projekt">1. Repository/Projekt angelegt (Praktikum)</label>
+                        </div>
 
                         <div>
                             <input type="checkbox" id="Anchor_Link" name="Anchor_Link"
@@ -117,24 +129,26 @@
                   <li>noch nicht benutzt</li>
             </td>
             <td>
-                <li><a href="https://github.com/sunward-s" target="_blank">https://github.com/sunward-s</a></li>
+                <li><a href="https://github.com/sunward-s" target="_blank">Github Account</a></li>
                     <li><a href="https://github.com/sunward-s/hello-world"
-                            target="_blank">https://github.com/sunward-s/hello-world</a></li>
+                            target="_blank">Erstes Projekt</a></li>
                     <li><a href="https://andreasbm.github.io/web-skills/"
-                            target="_blank">https://andreasbm.github.io/web-skills/</a></li>
-                            <li><a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">https://www.w3schools.com/cssref/sel_visited.asp</a></li>
+                            target="_blank">W3shool Web Skills</a></li>
+                            <li><a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">W3schools CSS visited Verweis</a></li>
             </td>
         </tr>
         <tr>
             <td id="14_06_2022">14.6.2022</td>
             <td>
-                <div>
-                    <input type="checkbox" id="jira" name="jira"
-                    checked>
-                    <label for="jira">Account auf jira.softconex.de erstellt</label>
-                </div>
                     <fieldset>
                         <legend></legend>
+
+                        <div>
+                            <input type="checkbox" id="jira" name="jira"
+                            checked>
+                            <label for="jira">Account auf jira.softconex.de erstellt</label>
+                        </div>
+
                     <div>
                         <input type="checkbox" id="Navigation" name="Navigation"
                         checked>
@@ -166,21 +180,23 @@
                 <li>SoftConEx Logo ins Projekt hinzugefügt</li>
             </td>
             <td>
-                 <li><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">https://www.w3schools.com/tags/tag_a.asp</a></li>
-                 <li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/checkbox" target="_blank">https://developer.mozilla.org/HTML/Element/Input/checkbox</a></li>
-                 <li><a href="https://de.w3docs.com/html-lernen/html-bilder.html" target="_blank">https://de.w3docs.com/html-lernen/html-bilder.html</a></li>
+                 <li><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3schools a Verweis</a></li>
+                 <li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/checkbox" target="_blank">Mozilla Checkbox Erklärung</a></li>
+                 <li><a href="https://de.w3docs.com/html-lernen/html-bilder.html" target="_blank">W3docs HTML Bilder</a></li>
                 </td>
         </tr>
         <tr>
             <td id="15_06_2022">15.6.2022</td>
             <td>
-                <div>
-                    <input type="checkbox" id="änderung" name="änderung"
-                    checked>
-                    <label for="änderung">Veränderungen auf dem Projekt</label>
-                </div>
                 <fieldset>
                     <legend></legend>
+
+                    <div>
+                        <input type="checkbox" id="änderung" name="änderung"
+                        checked>
+                        <label for="änderung">Veränderungen auf dem Projekt</label>
+                    </div>
+
                     <div>
                         <input type="checkbox" id="font" name="font"
                         checked>
@@ -196,6 +212,16 @@
                 <li>SoftConEx Logo verlinkt zur offiziellen Seite</li>
                 <li>Aufbau des Projekts optimiert</li>
                 <li>Tabelle erweitert mit einer neuen Spalte (Jira Vorgang)</li>
+            </td>
+        </tr>
+        <tr>
+            <td id="16_6_2022">16.6.2022</td>
+            <td>
+
+                <fieldset>
+                    <legend></legend>
+
+                </fieldset>
             </td>
         </tr>
     </table>
