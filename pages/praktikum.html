@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
     <h2>Praktikum 2022 bei SoftConEx </h2>
     </h2>
-    </div><a href="http://softconex.de/" target="_blank"><img src="SoftConEx.png" width="300px" alt="SoftConEx Logo" class="disabeld"/></a>
+    </div><a href="http://softconex.de/" target="_blank"><img src="SoftConEx.png" width="300px" alt="SoftConEx Logo"/></a>
+
+    <link href="https://fonts.googleapis.com/css2?family=Mukta" rel="stylesheet">
+
     <style>
-        .disabled {
-            pointer-events: none;
-            opacity: unset;
-            display: block;
-            cursor: default;
-            color: transparent;
-            text-decoration: none;
-
-        }
-
+        
         input {
             color: brown;
         }
@@ -32,18 +25,22 @@
         }
 
         a:visited {
-            color:steelblue
+            color: steelblue
         }
-        a:hover {
+
+        a.link:hover {
             background-color: rgb(163, 192, 206);
         }
+
         a:focus {
             color: cadetblue;
         }
 
         body {
-            font-family: sans-serif;
+            font-family: Mukta;
+            font-size: 20px;
         }
+
     </style>
 
 </head>
@@ -55,6 +52,7 @@
     <p>Tag 2, <a href="#14_6_2022">14.6.2022</a></p>
     <p>Tag 3, <a href="#15_6_2022">15.6.2022</a></p>
     <p>Tag 4, <a href="#16_6_2022">16.6.2022</a></p>
+    <p>Tag 6, <a href="#20_6_2022">20.6.2022</a></p>
 
     <table>
         <tr>
@@ -66,125 +64,112 @@
         <tr>
             <td id="13_6_2022">13.6.2022</td>
             <td>
-                    <fieldset>
-                        <legend></legend>
-                        <div>
-                            <input type="checkbox" id="VSCode" name="VSCode"
-                            checked>
-                            <label for="VSCode">VSCode installiert</label>
-                        </div>
+                <fieldset>
+                    <legend></legend>
+                    <div>
+                        <input type="checkbox" id="VSCode" name="VSCode" checked>
+                        <label for="VSCode">VSCode installiert</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="GIT" name="GIT"
-                            checked>
-                            <label for="GIT">Git Versionierungs-Applikation installiert</label>
-                        </div>
-                
-                        <div>
-                            <input type="checkbox" id="Github" name="Github"
-                            checked>
-                            <label for="Github">Github Konto eingerichtet</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="GIT" name="GIT" checked>
+                        <label for="GIT">Git Versionierungs-Applikation installiert</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Projekt" name="Projekt"
-                            checked>
-                            <label for="Projekt">1. Repository/Projekt angelegt (Praktikum)</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Github" name="Github" checked>
+                        <label for="Github">Github Konto eingerichtet</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Anchor_Link" name="Anchor_Link"
-                            checked>
-                            <label for="Anchor_Link">Klickbarer Link (Anchor)</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Projekt" name="Projekt" checked>
+                        <label for="Projekt">1. Repository/Projekt angelegt (Praktikum)</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Link_Farbe" name="Link_Farbe"
-                            checked>
-                            <label for="Link_Farbe">Link Farbveränderung</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Anchor_Link" name="Anchor_Link" checked>
+                        <label for="Anchor_Link">Klickbarer Link (Anchor)</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Link_Hintergrund" name="Link_Hintergrund"
-                            checked>
-                            <label for="Link_Hintergrund">Link Hintergrund Farbveränderung</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Link_Farbe" name="Link_Farbe" checked>
+                        <label for="Link_Farbe">Link Farbveränderung</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Webskill_Read" name="Webskill_Read"
-                            checked>
-                            <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Link_Hintergrund" name="Link_Hintergrund" checked>
+                        <label for="Link_Hintergrund">Link Hintergrund Farbveränderung</label>
+                    </div>
 
-                        <div>
-                            <input type="checkbox" id="Webskill_Read" name="Webskill_Read"
-                            checked>
-                            <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
-                        </div>
+                    <div>
+                        <input type="checkbox" id="Webskill_Read" name="Webskill_Read" checked>
+                        <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Webskill_Read" name="Webskill_Read" checked>
+                        <label for="Webskill_Read">WebSkills HTML & CSS lesen</label>
+                    </div>
 
 
 
-                    </fieldset>
+                </fieldset>
             </td>
             <td>
-                  <li>noch nicht benutzt</li>
+                <li>noch nicht benutzt</li>
             </td>
             <td>
-                <li><a href="https://github.com/sunward-s" target="_blank">Github Account</a></li>
-                    <li><a href="https://github.com/sunward-s/hello-world"
-                            target="_blank">Erstes Projekt</a></li>
-                    <li><a href="https://andreasbm.github.io/web-skills/"
-                            target="_blank">W3shool Web Skills</a></li>
-                            <li><a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">W3schools CSS visited Verweis</a></li>
+                <li><a class=link href="https://github.com/sunward-s" target="_blank">Github Account</a></li>
+                <li><a class=link href="https://github.com/sunward-s/hello-world" target="_blank">Erstes Projekt</a></li>
+                <li><a class=link href="https://andreasbm.github.io/web-skills/" target="_blank">W3shool Web Skills</a></li>
+                <li><a class=link href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">W3schools CSS visited
+                        Verweis</a></li>
             </td>
         </tr>
         <tr>
             <td id="14_06_2022">14.6.2022</td>
             <td>
-                    <fieldset>
-                        <legend></legend>
-
-                        <div>
-                            <input type="checkbox" id="jira" name="jira"
-                            checked>
-                            <label for="jira">Account auf jira.softconex.de erstellt</label>
-                        </div>
+                <fieldset>
+                    <legend></legend>
 
                     <div>
-                        <input type="checkbox" id="Navigation" name="Navigation"
-                        checked>
+                        <input type="checkbox" id="jira" name="jira" checked>
+                        <label for="jira">Account auf jira.softconex.de erstellt</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Navigation" name="Navigation" checked>
                         <label for="Navigation">Navigation erstellen</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="Border" name="Border"
-                        checked>
+                        <input type="checkbox" id="Border" name="Border" unchecked>
                         <label for="Border">Border erstellen</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="Checklist" name="Checklist"
-                        checked>
+                        <input type="checkbox" id="Checklist" name="Checklist" checked>
                         <label for="Checkslist">Checklist erstellen</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="Image" name="Image"
-                        checked>
+                        <input type="checkbox" id="Image" name="Image" checked>
                         <label for="Image">Bilder einfügen</label>
                     </div>
                 </fieldset>
             </td>
             <td>
-                <li>Navigation erstellt und ins Projekt eingebaut</li>
-                <li>Eckige Klammern ersetzt durch Checkboxen</li>
-                <li>SoftConEx Logo ins Projekt hinzugefügt</li>
+                <a href="https://jira.softconex.de/browse/PRAK-16" target="_blank"><button>PRAK-16</button></a>
+                <a href="https://jira.softconex.de/browse/PRAK-17" target="_blank"><button>PRAK-17</button></a>
+                <a href="https://jira.softconex.de/browse/PRAK-18" target="_blank"><button>PRAK-18</button></a>
             </td>
             <td>
-                 <li><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3schools a Verweis</a></li>
-                 <li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/checkbox" target="_blank">Mozilla Checkbox Erklärung</a></li>
-                 <li><a href="https://de.w3docs.com/html-lernen/html-bilder.html" target="_blank">W3docs HTML Bilder</a></li>
-                </td>
+                <li><a class=link href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3schools a Verweis</a></li>
+                <li><a class=link href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/checkbox"
+                        target="_blank">Mozilla Checkbox Erklärung</a></li>
+                <li><a class=link href="https://de.w3docs.com/html-lernen/html-bilder.html" target="_blank">W3docs HTML Bilder</a>
+                </li>
+            </td>
         </tr>
         <tr>
             <td id="15_06_2022">15.6.2022</td>
@@ -193,26 +178,23 @@
                     <legend></legend>
 
                     <div>
-                        <input type="checkbox" id="änderung" name="änderung"
-                        checked>
+                        <input type="checkbox" id="änderung" name="änderung" checked>
                         <label for="änderung">Veränderungen auf dem Projekt</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="font" name="font"
-                        checked>
+                        <input type="checkbox" id="font" name="font" checked>
                         <label for="font">Schriftart geändert</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="jira_spalte" name="jira_spalte"
-                        checked>
+                        <input type="checkbox" id="jira_spalte" name="jira_spalte" checked>
                         <label for="jira_spalte">Neue Spalte "Jira Vorgang" erstellt</label>
-                    </div>       
+                    </div>
             </td>
             <td>
-                <li>SoftConEx Logo verlinkt zur offiziellen Seite</li>
-                <li>Aufbau des Projekts optimiert</li>
-                <li>Tabelle erweitert mit einer neuen Spalte (Jira Vorgang)</li>
+                <a href="https://jira.softconex.de/browse/PRAK-18" target="_blank"><button>PRAK-18</button></a>
+                <a href="https://jira.softconex.de/browse/PRAK-19" target="_blank"><button>PRAK-19</button></a>
+                <a href="https://jira.softconex.de/browse/PRAK-20" target="_blank"><button>PRAK-20</button></a>
             </td>
         </tr>
         <tr>
@@ -222,27 +204,42 @@
                 <fieldset>
                     <legend></legend>
                     <div>
-                        <input type="checkbox" id="programme" name="programme"
-                        checked>
+                        <input type="checkbox" id="programme" name="programme" checked>
                         <label for="programme">Alte Seite (test) mit neuer (Programme) ersetzt</label>
-                    </div> 
+                    </div>
                     <div>
-                        <input type="checkbox" id="p_einfügen" name="p_einfügen"
-                        checked>
+                        <input type="checkbox" id="p_einfügen" name="p_einfügen" checked>
                         <label for="p_einfügen">Programm in Programm.html hinzugefügt</label>
-                    </div> 
+                    </div>
                 </fieldset>
             </td>
             <td>
-
-
+                <a href="https://jira.softconex.de/browse/PRAK-21" target="_blank"><button>PRAK-21</button></a>
             </td>
+
             <td>
-                <li><a href="https://www.w3schools.com/graphics/tryit.asp?filename=trygame_default_gravity" target="_blank">W3schools Gravity Game</a></li>
+                <li><a class=link href="https://www.w3schools.com/graphics/tryit.asp?filename=trygame_default_gravity"
+                        target="_blank">W3schools Gravity Game</a></li>
             </td>
         </tr>
+        <td id="20_6_2022">20.6.2022</td>
+        <td>
+            <fieldset>
+                <legend></legend>
+                <div>
+                    <input type="checkbox" id="changes" name="changes" checked>
+                    <label for="changes">Änderungen auf dem Projekt</label>
+                </div>
+
+            </fieldset>
+
+        </td>
+        <td>
+            <a href="https://jira.softconex.de/browse/PRAK-22" target="_blank"><button>PRAK-22</button></a>
+        </td>
+        <td>
+            <a class=link href=" https://www.javatpoint.com/oprweb/test.jsp?filename=javascript-calculator1" target="_blank">Calculator Javatpoint</a>
+        </td>
     </table>
 
 </body>
-
-</html>
